@@ -1,0 +1,39 @@
+#naglowek{
+    text-align: center;
+    background-color:darkblue;
+    color:white;
+    padding: 30px;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+#naglowek h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#naglowek p{
+    font-style: italic;
+    font-size: 14px;
+}
+
+#baner{
+    background-image: url("https://fastly.picsum.photos/id/433/1200/300.jpg?hmac=Ak2gS7EZwPoNz-GrJW1uSZcuiv8hc_2DsIYqDSMJPvk");
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.wpis { background-color: #ffffff; max-width: 600px; margin: 20px auto; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; color: #333333; }
+
+/* Autor wpisu */ .autor { font-size: 16px; font-weight: bold; margin: 0 0 8px 0; }
+
+/* Data i widoczność wpisu */ .data { font-size: 13px; color: #777777; margin: 0 0 16px 0; }
+
+/* Główna treść wpisu */ .tekst { font-size: 16px; line-height: 1.6; margin: 0 0 20px 0; }
+
+/* Przyciski reakcji */ .reakcje { border-top: 1px solid #eeeeee; padding-top: 15px; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px; color: #555555; font-size: 14px; cursor: pointer; }
+
+.reakcje:hover { color: #1877f2; }
+
